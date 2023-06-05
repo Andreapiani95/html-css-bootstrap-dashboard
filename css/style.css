@@ -1,0 +1,37 @@
+/*
+
+RESET
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+
+MEDIA QUERY
+
+*/
+
+
+
+/*
+
+DEBUG
+
+*/
+
+.debug header{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+}
+
+.debug main{
+    width: 100%;
+    height: calc(100% - 80px);
+}
