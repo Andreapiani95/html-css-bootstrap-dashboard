@@ -10,6 +10,26 @@ RESET
     box-sizing: border-box;
 }
 
+/*
+
+ROOT
+
+*/
+
+:root{
+    --header-height: 80px;
+}
+/*
+
+HEADER
+
+*/
+
+/*
+
+MAIN
+
+*/
 
 /*
 
@@ -27,11 +47,14 @@ DEBUG
 
 .debug header{
     width: 100%;
-    height: 80px;
+    height: var(--header-height);
     background-color: aqua;
 }
 
 .debug main{
     width: 100%;
-    height: calc(100% - 80px);
+}
+
+main>*{
+    max-height: calc(100vh - var(--header-height));
 }
