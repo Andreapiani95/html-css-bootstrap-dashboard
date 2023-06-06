@@ -25,12 +25,20 @@ HEADER
 
 */
 
+.logo-col{
+    width: 150px;
+}
 /*
 
 MAIN
 
 */
 
+.my-sidebar{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+    width: 150px;
+}
 /*
 
 MEDIA QUERY
@@ -48,13 +56,9 @@ DEBUG
 .debug header{
     width: 100%;
     height: var(--header-height);
-    background-color: aqua;
 }
 
-.debug main{
-    width: 100%;
-}
 
-main>*{
+main>.main-content{
     max-height: calc(100vh - var(--header-height));
 }
